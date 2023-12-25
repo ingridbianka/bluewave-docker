@@ -103,7 +103,7 @@ jobs:
 
 
 
-  deploy to dev:
+  deploy-to-dev:
     needs: build
     runs-on: ubuntu-latest
     permissions:

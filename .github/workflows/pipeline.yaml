@@ -3,7 +3,10 @@ name: CI/CD Pipeline with Code and Container Scanning
 on:
   push:
     branches:
-      - main  
+      - main 
+  merge:
+    branches:
+      - main 
 
 env:
   AWS_REGION: 'us-east-1'

@@ -10,7 +10,7 @@ variable "environment" {
 
 variable "instance_type" {
   description = "The instance type"
-  default     = "r6a.large"
+  default     = "t2.large"
 }
 
 variable "region" {
@@ -22,5 +22,3 @@ variable "github_username" {
   description = "Your GitHub username"
   default     = "ingridbianka"
 }
-
-#
